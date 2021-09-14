@@ -5,6 +5,15 @@ The codes are motivated by DSO (https://github.com/JakobEngel/dso) by Engel et a
 
 The compiler has to support C++14 standard.
 
+## Build
+First, come to the ```thirdparty``` directory and then compile ```g2o``` and ```DBoW3``` (DO NOT INSTALL!!!). Then, build the project. The final binaries locate at ```bin``` directory. 
+
+Trouble shooting: 
+
+1. ```Pangolin_FOUND is not TRUE```: This means that the Pangolin cmake file did not change the enviroment variable. Use ```cmake -DPangolin_FOUND=TRUE``` to gap this error.
+
+2. ```/usr/bin/ld: cannot find -lEigen3::Eigen```: This means that the Pangolin cmake file has some problems, try this command and then rebuild: ```sudo ln -s /usr/local/lib/libpango_core.so /usr/local/lib/libEigen3::Eigen.so```
+
 ## Related Publications
 
 ![alt tag](odom.png)
