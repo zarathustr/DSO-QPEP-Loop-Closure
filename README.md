@@ -3,6 +3,8 @@
 ## Code Arch
 The codes are motivated by DSO (https://github.com/JakobEngel/dso) by Engel et al. and LDSO (https://github.com/tum-vision/LDSO) by Xiang Gao et al.
 
+The compiler has to support C++14 standard.
+
 ## Related Publications
 
 ![alt tag](odom.png)
