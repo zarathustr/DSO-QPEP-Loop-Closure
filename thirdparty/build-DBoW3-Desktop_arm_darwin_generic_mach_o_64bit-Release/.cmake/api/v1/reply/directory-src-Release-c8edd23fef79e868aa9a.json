@@ -1,0 +1,86 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "main",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/libDBoW3.0.0.1.dylib",
+				"src/libDBoW3.0.0.dylib"
+			],
+			"targetId" : "DBoW3::@145eef247bfb46b6828c",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "main",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/libDBoW3.dylib"
+			],
+			"targetId" : "DBoW3::@145eef247bfb46b6828c",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "main",
+			"destination" : "include/DBoW3",
+			"paths" : 
+			[
+				"src/BowVector.h",
+				"src/DBoW3.h",
+				"src/Database.h",
+				"src/DescManip.h",
+				"src/FeatureVector.h",
+				"src/QueryResults.h",
+				"src/ScoringObject.h",
+				"src/Vocabulary.h",
+				"src/exports.h",
+				"src/quicklz.h",
+				"src/timers.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}
