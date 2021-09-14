@@ -12,7 +12,7 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
 endif()
 
 # C++ standard
-set( CMAKE_CXX_FLAGS "-std=c++11 -O3 -g -w ${CMAKE_CXX_FLAGS}" )
+set( CMAKE_CXX_FLAGS "-std=c++14 -O3 -g -w ${CMAKE_CXX_FLAGS}" )
 set(CMAKE_BUILD_TYPE "Release")
 
 # costum modules
