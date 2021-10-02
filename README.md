@@ -24,7 +24,7 @@ Trouble shooting:
    In IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2018
  * **A Photometrically Calibrated Benchmark For Monocular Visual Odometry**, *J. Engel, V. Usenko, D. Cremers*,
    In arXiv:1607.02555, 2016
- * **Quadratic Pose Estimation Problems: Unified Solutions, Solvability/Observability Analysis and Uncertainty Description in A Globally Optimal Framework**, *J. Wu, Y. Zheng, Z. Gao, Y. Jiang, X. Hu, Y. Zhu, J. Jiao, M. Liu*
+ * **Quadratic Pose Estimation Problems: Globally Optimal Solutions, Solvability/Observability Analysis and Uncertainty Description **, *J. Wu, Y. Zheng, Z. Gao, Y. Jiang, X. Hu, Y. Zhu, J. Jiao, M. Liu*, 
    2020, https://github.com/zarathustr/QPEP
 
 ## Run
